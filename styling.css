@@ -1,0 +1,135 @@
+body {
+    background: url(https://freenaturestock.s3.us-east-1.amazonaws.com/1676.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto Slab', serif;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+}
+
+#heading {
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.navbar-dark {
+    background: rgba(0,0,0,0.4);
+    height: 70px;
+}
+
+nav li {
+    color: white;
+    font-size: 22px;
+    margin-right: 40px;
+    padding: 10px 0px;
+}
+
+nav li:hover {
+    border-bottom:1px solid#41edb5;
+    padding-bottom: 9px;
+}
+
+.jumbotron {
+    background-color: transparent;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+.col-md-4 {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.contactus {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.btn {
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    background-color: rgba(36, 165, 116, 0.2);
+}
+
+.btn:hover {
+    color: #41edb5;
+    background-color: black;
+}
+
+.image {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:768px) {
+    .image {
+        height: 80px;
+    }
+
+    .navbar-dark {
+        height: 60px;
+    }
+
+    .logo {
+        height: 40px;
+        width: 40px;
+        top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .navbar-toggler-icon {
+        padding-bottom: 10px;
+    }
+
+    #heading {
+        font-size: 55px;
+    }
+}
+
+#foot {
+    /* border: 1px solid black; */
+    width: 480px;
+    margin: 30px auto;
+}
+
+#footerself {
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#footerself2 {
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#self {
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+}
+
+#self:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
